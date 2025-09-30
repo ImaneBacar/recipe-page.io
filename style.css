@@ -34,7 +34,7 @@ body {
     background-color: rgb(255, 255, 255);
     border-radius: 20px;
     width: 53%;
-    padding: 25px;
+    padding: 35px;
 }
 
 .divImg {
@@ -49,10 +49,10 @@ body {
     margin-bottom: 15px;
 }
 
-.presentationRecipe>h1 {
+.recipe-title {
     font-size: 35px;
     color: hsl(24, 5%, 18%);
-    font-weight: 200;
+    font-weight: 500;
     padding: 15px 0;
     font-family: "Young Serif", "Outfit";
 }
