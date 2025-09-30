@@ -115,7 +115,8 @@ span {
     font-family: "Young Serif", "Outfit";
     color: hsl(14, 45%, 36%);
     padding: 20px 0;
-    font-weight: 500;
+    font-weight: bold;
+
 }
 
 .ingredients>ul {
@@ -189,6 +190,7 @@ hr {
 .listenutrition>hr {
     margin: 0;
 }
+
 
 @media screen and (max-width: 1000px) {
     .container {
