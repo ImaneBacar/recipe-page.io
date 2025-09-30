@@ -40,9 +40,8 @@ body {
 .recipe-title {
     font-size: 35px;
     color: hsl(24, 5%, 18%);
-    font-weight: bold;
     padding: 15px 0;
-    font-family: "Young Serif", "Outfit";
+    font-family: "Young Serif";
 }
 
 .presentationRecipe>p {
@@ -88,7 +87,7 @@ span {
 .titreIngredients,
 .titreInstructions,
 .titreNutrition {
-    font-family: "Young Serif", "Outfit";
+    font-family: "Young Serif";
     color: hsl(14, 45%, 36%);
     padding: 20px 0;
     font-weight: bold;
