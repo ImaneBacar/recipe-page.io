@@ -64,7 +64,7 @@ body {
 .recipe-title {
     font-size: 35px;
     color: hsl(24, 5%, 18%);
-    font-weight: 500;
+    font-weight: bold;
     padding: 15px 0;
     font-family: "Young Serif", "Outfit";
 }
