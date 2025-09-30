@@ -145,6 +145,7 @@ hr {
 
 .nutrition>p {
     margin-bottom: 20px;
+    color: hsl(30, 10%, 34%);
 }
 
 .listenutrition p {
@@ -160,19 +161,59 @@ hr {
     padding: 0 30px;
 }
 
-.listenutrition .spanspeficque {
-    padding-left: 0px;
-    color: #000;
-}
-
 .listenutrition p span {
     font-weight: bold;
     color: hsl(14, 45%, 36%);
-    padding-right: 10px;
+}
 
+.spanspeficque {
+    padding-right: 26px;
+}
 
+.spanCarbs {
+    padding-right: 35px;
 }
 
 .listenutrition>hr {
     margin: 0;
+}
+
+@media screen and (max-width: 1000px) {
+    .container {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    body {
+        background: #ffffff;
+    }
+
+    .imgOmelette {
+        width: 100%;
+        height: auto;
+        border-radius: 0;
+    }
+
+    .container {
+        margin: 0;
+        padding: 0;
+        border-radius: 0;
+        width: 99.9%;
+    }
+
+    .blockRecipe {
+        padding: 25px;
+        padding-top: 5px;
+    }
+
+    .preparationTime>ul {
+        padding-left: 10px;
+    }
+
+    .presentationRecipe>h1 {
+        font-size: 30px;
+        padding-top: 0px
+    }
 }
